@@ -1,13 +1,13 @@
 package com.quizapp.databaseClasses;
 
 public class Login {
-	
+
 	private int loginId;
 	private String usernames;
 	private String Password;
-	private String UserRole="user";
-	
-	public Login( String usernames, String password, String userRole) {
+	private String UserRole = "user";
+
+	public Login(String usernames, String password, String userRole) {
 		super();
 		this.usernames = usernames;
 		Password = password;
@@ -57,9 +57,5 @@ public class Login {
 		return "Login [loginId=" + loginId + ", usernames=" + usernames + ", Password=" + Password + ", UserRole="
 				+ UserRole + "]";
 	}
-	
-	
-	
-	
 
 }
